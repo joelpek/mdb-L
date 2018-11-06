@@ -1,4 +1,5 @@
 import React from 'react';
+import {Arrow} from '../scroll/Arrow.js';
 import img from './right.png';
 
 export default class ScrollRight extends React.Component {

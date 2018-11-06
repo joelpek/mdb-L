@@ -2,12 +2,11 @@
 import React, { PureComponent, Fragment } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import styled from 'styled-components';
 import ScrollMenu from 'react-horizontal-scrolling-menu';
 
 import Movie from './Movie';
-import ScrollLeft from '../scroll/Arrows';
-import ScrollRight from '../scroll/Arrows';
+import ScrollLeft from '../scroll/ScrollLeft';
+import ScrollRight from '../scroll/ScrollRight';
 import { getUpcomingMovies, getTopMovies, isLoaded, isLoaded1 } from './actions';
 
 class MoviesList extends PureComponent {
