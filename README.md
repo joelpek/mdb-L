@@ -1,3 +1,10 @@
+## An extremely light and performant movie database prototype 
+Uses React, Redux and react-horizontal-scrolling-menu to provide a moder user experience with Netflix-flavored UI and navigation. 
+
+Scrolling horizontal lists has been disabled in favor of mouse dragging and button navigation. Mobile layout also currently preserves buttons for testing and demonstration purposes.
+
+***
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -42,3 +49,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## 
