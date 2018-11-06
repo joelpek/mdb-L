@@ -7891,13 +7891,6 @@ react-dom@^16.6.0:
     prop-types "^15.6.2"
     scheduler "^0.10.0"
 
-react-dragscroll@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/react-dragscroll/-/react-dragscroll-2.0.1.tgz#c3c63c80f85b3395fed8a117447bd5673f5cf67a"
-  integrity sha512-BI7FP/48z/i2HEqp+9Y5k2LzawNNO61U5oiDYLbkcsLOsdljTWJd9/uMgKIlcvidz/5orA+X9ZHqW0um+HRrAQ==
-  dependencies:
-    react "^16.1.1"
-
 react-error-overlay@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.1.0.tgz#c516995a5652e7bfbed8b497910d5280df74a7e8"
@@ -8016,7 +8009,7 @@ react-scripts@2.1.1:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@^16.1.1, react@^16.6.0:
+react@^16.6.0:
   version "16.6.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.6.0.tgz#b34761cfaf3e30f5508bc732fb4736730b7da246"
   integrity sha512-zJPnx/jKtuOEXCbQ9BKaxDMxR0001/hzxXwYxG8septeyYGfsgAei6NgfbVgOhbY1WOP2o3VPs/E9HaN+9hV3Q==

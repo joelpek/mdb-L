@@ -30,12 +30,14 @@ class MoviesList extends PureComponent {
           data={movies1}
           arrowLeft={<ScrollLeft/>}
           arrowRight={<ScrollRight/>}
+          alignCenter={false}
           />
         <ScrollMenu
           translate='0'
           data={movies2}
           arrowLeft={<ScrollLeft/>}
           arrowRight={<ScrollRight/>}
+          alignCenter={false}
         />
       </Fragment>
     );
