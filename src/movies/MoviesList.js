@@ -25,39 +25,33 @@ class MoviesList extends PureComponent {
     let movies1 = uMovies.map(movie => <Movie key={movie.id} movie={movie} />)
     let movies2 = tMovies.map(movie => <Movie key={movie.id} movie={movie} />)
     let movies3 = pMovies.map(movie => <Movie key={movie.id} movie={movie} />)
-    let movieGrid = [
-      {
-        movies: movies1,
-        heading: 'Upcoming Movies'
-      },
-      {
-        movies: movies2,
-        heading: 'Top Rated Movies'
-      },
-      {
-        movies: movies3,
-        heading: 'Popular Movies'
-      }
-    ]
-    let MovieGrid = (movieGrid) => (
-      <Fragment>
-        {movieGrid.map(movieList => (
-          <Fragment>
-            <h2>{movieList.heading}</h2>
-            <ScrollMenu 
-              data={movieList.movies}
-              arrowLeft={<ScrollLeft/>}
-              arrowRight={<ScrollRight/>}
-              alignCenter={false}
-              wheel={false}
-            />
-          </Fragment>
-        ))}
-      </Fragment>
-    ); 
     return (
       <Fragment>
-        {MovieGrid(movieGrid)}
+        <h2>Upcoming Movies</h2>
+        <ScrollMenu
+          data={movies1}
+          arrowLeft={<ScrollLeft/>}
+          arrowRight={<ScrollRight/>}
+          alignCenter={false}
+          wheel={false}
+        />
+        <h2>Top Rated Movies</h2>
+        <ScrollMenu
+          data={movies2}
+          arrowLeft={<ScrollLeft/>}
+          arrowRight={<ScrollRight/>}
+          alignCenter={false}
+          wheel={false}
+          wheel={false}
+          />
+        <h2>Popular Movies</h2>
+        <ScrollMenu
+          data={movies3}
+          arrowLeft={<ScrollLeft/>}
+          arrowRight={<ScrollRight/>}
+          alignCenter={false}
+          wheel={false}
+        />
       </Fragment>
     );
   }
