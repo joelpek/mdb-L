@@ -1,8 +1,9 @@
-import { GET_UPCOMING_MOVIES, GET_TOP_MOVIES, GET_MOVIE, RESET_MOVIE } from './actions';
+import { GET_UPCOMING_MOVIES, GET_TOP_MOVIES, GET_POPULAR_MOVIES, GET_MOVIE, RESET_MOVIE } from './actions';
 
 const initialState = {
   uMovies: [],
   tMovies: [],
+  pMovies: [],
   moviesLoaded: false,
   moviesLoaded1: false,
   movie: {},
@@ -22,6 +23,12 @@ export default function (state = initialState, action) {
       return {
         ...state,
         tMovies: data,
+        moviesLoaded1: true
+      };
+    case GET_POPULAR_MOVIES:
+      return {
+        ...state,
+        pMovies: data,
         moviesLoaded1: true
       };
     case GET_MOVIE:

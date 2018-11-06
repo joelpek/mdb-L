@@ -3,9 +3,9 @@
 }
 
 .App-header {
-  background-color: #111;
-  height: 60px;
-  padding: 20px;
+  background-color: gray;
+  height: 20px;
+  padding: 0 0 25px 0;
   color: white;
 }
 
@@ -17,8 +17,9 @@
   font-size: large;
 }
 
-h3 {
+h2, h3 {
   color: #FFF;
+  margin-bottom: 0px;
 }
 
 .menu-wrapper {
@@ -30,11 +31,13 @@ h3 {
   user-select: none;
   border: none;
 }
+
 .scroll-item-wrapper.active {
   /* border: 1px blue solid; */
   box-shadow: #FFF;
   cursor: pointer;
 }
+
 .scroll-item.active {
   /* border: 1px green solid; */
   box-shadow: #FFF;
