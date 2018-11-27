@@ -8,10 +8,10 @@ Provides watchlist functionality via MongoDB, Mongoose, Node and Express.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and was inspired and facilitated by the awesome Scott Tolinski @ [Level Up Tutorials](https://leveluptutorials.com "LevelUpTutorials.com").
 ***
 ## Local test build instructions
-1. `npm install`
+1. `npm install` **OR** `yarn install`
 2. If you don't have Google Chrome, download and install it.
 3. Install [Allow-Control-Allow-Origin: *](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi "Google Chrome Web Store") for Chrome by opening this link in Chrome
-4. `npm run dev`
+4. `npm run dev` **OR** `yarn run dev`
 5. (only applies if Google Chrome is not your default web browser) Manually open the address "localhost:3000" in Chrome.
 6. Hover over movie posters in main view to reveal the "*Add to Watchlist*" button **OR** click movie poster link and *Add to Watchlist* from there. Watchlist dynamically populates and reactively re-renders via JSON data posted to and fetched from MongoDB (mLab.com).
 
