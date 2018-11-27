@@ -1,11 +1,19 @@
-## An extremely light and performant movie database prototype 
-Uses React, Redux and react-horizontal-scrolling-menu to provide a moder user experience with Netflix-flavored UI and navigation. 
+## A light and performant movie database prototype built on the MERN stack
+Uses React, Redux, [The Movie Database (TMDb)](https://www.themoviedb.org/ "The Movie Database")  and react-horizontal-scrolling-menu to provide a smooth user experience complete with a Netflix-inspired UX. 
 
-Scrolling horizontal lists has been disabled in favor of mouse dragging and button navigation. Mobile layout also currently preserves buttons for testing and demonstration purposes.
+Traditional scrolling of horizontal movie lists has been disabled in favor of mouse dragging and button navigation. Mobile layout also preserves buttons for testing and demonstration purposes.
 
+Provides watchlist functionality via MongoDB, Mongoose, Node and Express.
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and was inspired and facilitated by the awesome Scott Tolinski @ [Level Up Tutorials](https://leveluptutorials.com "LevelUpTutorials.com").
 ***
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Local test build instructions
+1. `npm install`
+2. If you don't have Google Chrome, download and install it.
+3. Install [Allow-Control-Allow-Origin: *](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi "Google Chrome Web Store") for Chrome by opening this link in Chrome
+4. `npm run dev`
+5. (only applies if Google Chrome is not your default web browser) Manually open the address "localhost:3000" in Chrome.
+6. Hover over movie posters in main view to reveal the "*Add to Watchlist*" button **OR** click movie poster link and *Add to Watchlist* from there. Watchlist dynamically populates and reactively re-renders via JSON data posted to and fetched from MongoDB (mLab.com).
 
 ## Available Scripts
 

@@ -1,13 +1,13 @@
-import { GET_UPCOMING_MOVIES, GET_TOP_MOVIES, GET_POPULAR_MOVIES, GET_MOVIE, RESET_MOVIE } from './actions';
+import { GET_UPCOMING_MOVIES, GET_TOP_MOVIES, GET_POPULAR_MOVIES, GET_MOVIE, RESET_MOVIE, GET_WATCHLIST, POST_WATCHLIST, RESET_WATCHLIST } from './actions';
 
 const initialState = {
   uMovies: [],
   tMovies: [],
   pMovies: [],
   moviesLoaded: false,
-  moviesLoaded1: false,
   movie: {},
   movieLoaded: false,
+  watchlist: [],
 };
 
 export default function (state = initialState, action) {
@@ -17,19 +17,17 @@ export default function (state = initialState, action) {
       return {
         ...state,
         uMovies: data,
-        moviesLoaded: true
       };
     case GET_TOP_MOVIES:
       return {
         ...state,
         tMovies: data,
-        moviesLoaded1: true
       };
     case GET_POPULAR_MOVIES:
       return {
         ...state,
         pMovies: data,
-        moviesLoaded1: true
+        moviesLoaded: true
       };
     case GET_MOVIE:
       return {
@@ -42,6 +40,20 @@ export default function (state = initialState, action) {
         ...state,
         movie: {},
         movieLoaded: false,
+      };
+    case GET_WATCHLIST:
+      return {
+        ...state,
+        watchlist: data,
+      };
+    case POST_WATCHLIST:
+      return {
+        ...state,
+      };
+    case RESET_WATCHLIST:
+      return {
+        ...state,
+        watchlist: [],
       };
     default:
       return state;
