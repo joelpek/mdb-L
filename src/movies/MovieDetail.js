@@ -31,7 +31,7 @@ class MovieDetail extends Component {
             <h1>{movie.title}</h1>
             <h3>{movie.release_date}</h3>
             <p>{movie.overview}</p>
-            <AddBtn style={{padding:"20px 20px"}}/>
+            <AddBtn />
           </div>
         </MovieInfo>
       </MovieDetailWrapper>

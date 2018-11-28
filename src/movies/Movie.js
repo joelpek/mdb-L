@@ -47,16 +47,12 @@ margin: 1rem;
 
 export const AddBtn = styled.button`
   box-shadow: 0 0 10px black;
-  margin-top: -3rem;
+  margin-top: -3.8rem;
   width: 120px;
   background-color: rgba(128,128,128,0.7);
-  background-repeat: no-repeat;
-  border: none;
-  outline: none;
   color: white;
   font-weight: bold;
   visibility: visible;
-  padding: 10px;
 `;
 
 export const MovieWrapper = styled.div`
