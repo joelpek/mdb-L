@@ -5,7 +5,7 @@ Traditional scrolling of horizontal movie lists has been disabled in favor of mo
 
 Provides watchlist functionality via MongoDB, Mongoose, Node and Express.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and was inspired and facilitated by the awesome Scott Tolinski @ [Level Up Tutorials](https://leveluptutorials.com "LevelUpTutorials.com").
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and was inspired and facilitated by the awesome work of Scott Tolinski @ [Level Up Tutorials](https://leveluptutorials.com "LevelUpTutorials.com").
 ***
 ## Local test build instructions
 1. `npm install` **OR** `yarn install`
